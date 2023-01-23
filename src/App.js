@@ -10,9 +10,9 @@ function App() {
      <ResponsiveAppBar />
      <Routes>
       <Route path="/" element={<Home />}></Route>
-      <Route path="/Albums" element={<Album />}></Route>
-      <Route path="/Users" element={<Users />}></Route>
-      <Route path="/Photo" element={<Photo />}></Route>
+      <Route path="Albums" element={<Album />}></Route>
+      <Route path="Users" element={<Users />}></Route>
+      <Route path="Photo" element={<Photo />}></Route>
      </Routes>
     </div>
   );

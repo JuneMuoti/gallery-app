@@ -21,7 +21,7 @@ function Copyright() {
     <Typography variant="body2" color="text.secondary" align="center">
       {'Copyright © '}
       <Link color="inherit" href="https://mui.com/">
-        Your Website
+      Gallery App
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -120,7 +120,7 @@ export default function Photo() {
           color="text.secondary"
           component="p"
         >
-          Something here to give the footer a purpose!
+          Curative Gallery App to  showcase different work.
         </Typography>
         <Copyright />
       </Box>

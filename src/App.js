@@ -1,8 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import {Route,Routes} from "react-router";
 import ResponsiveAppBar from "./components/Navbar";
-import { Route } from 'react-router-dom';
-import { Album } from '@mui/icons-material';
+// import { Route } from 'react-router-dom';
+import Album  from './components/Album';
+import Dashboard from './components/Users';
+import Photo from './components/Photo';
+import Users from './components/Users';
+import Home from './components/Home';
 
 function App() {
   return (

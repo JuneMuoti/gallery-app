@@ -163,7 +163,7 @@ function PricingContent() {
       <GlobalStyles styles={{ ul: { margin: 0, padding: 0, listStyle: 'none' } }} />
       <CssBaseline />
    
-      <Container disableGutters maxWidth="sm" component="main" sx={{ pt: 8, pb: 6 }}>
+      <Container disableGutters maxWidth="sm" component="main" >
         <Typography
           component="h1"
           variant="h2"
@@ -189,7 +189,7 @@ function PricingContent() {
       </Container>
       {/* End hero unit */}
       <Container maxWidth="md" component="main">
-        <Grid container spacing={5} alignItems="flex-end">
+        <Grid container spacing={5} alignItems="flex-end" sx={{ pt: 10, pb: 6 ,pl: 6 }}>
           
         <ImageList  variant="woven" cols={6} gap={8}>
   {itemData.map((item) => (

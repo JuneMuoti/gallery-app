@@ -13,6 +13,8 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import {Link} from 'react-router-dom';
+import CollectionsIcon from '@mui/icons-material/Collections';
+import PhotoCameraOutlinedIcon from '@mui/icons-material/PhotoCameraOutlined';
 
 const pages = ['Users', 'Albums', 'Photo','Landing'];
 const settings = ['Login'];
@@ -40,7 +42,8 @@ function ResponsiveAppBar() {
     <AppBar position="static" color='secondary'>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+        <PhotoCameraOutlinedIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          
           <Typography
             variant="h6"
             noWrap
@@ -56,7 +59,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            GALLERY APP
+            PHOTOSPHERE
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>

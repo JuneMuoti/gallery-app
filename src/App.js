@@ -8,16 +8,22 @@ import Dashboard from './components/Users';
 import Photo from './components/Photo';
 import Users from './components/Users';
 import Home from './components/Home';
+import Login from './components/Login';
+import Landing from './components/Landing';
 
 function App() {
   return (
     <div className="App">
      <ResponsiveAppBar />
      <Routes>
-      <Route path="/" element={<Home />}></Route>
+     <Route path="/" element={<Landing />}></Route>
+      <Route path="Home" element={<Home />}></Route>
       <Route path="Albums" element={<Album />}></Route>
       <Route path="Users" element={<Users />}></Route>
       <Route path="Photo" element={<Photo />}></Route>
+      <Route path="Login" element={<Login />}></Route>
+      <Route path="Albums/new" render={(props) => <Album {...props}/>}/>
+     
      </Routes>
     </div>
   );

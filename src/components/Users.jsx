@@ -56,7 +56,7 @@ class Users extends Component {
            <Grid item xs={6}>
            <Typography
                  component="h1"
-                 variant="h6"
+                 variant="h4"
                  align="center"
                  color="text.primary"
                  gutterBottom

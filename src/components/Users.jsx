@@ -12,20 +12,6 @@ import Album from './Album';
 import Grid from '@mui/material/Grid';
 import CircularProgress from '@mui/material/CircularProgress';
 
-function Copyright() {
-    return (
-        
-      <Typography variant="body2" color="text.secondary" align="center">
-        {'Copyright © '}
-        <Link color="inherit" href="https://mui.com/">
-        Photosphere
-        </Link>{' '}
-        {new Date().getFullYear()}
-        {'.'}
-      </Typography>
-    );
-  }
- 
  
 class Users extends Component {
   constructor() {
@@ -98,22 +84,7 @@ class Users extends Component {
 
    </Container>
   
-           {/* Footer */}
-           <Box sx={{ bgcolor: 'background.paper', p: 6 }} component="footer">
-           <Typography variant="h6" align="center" gutterBottom>
-               
-           </Typography>
-           <Typography
-             variant="subtitle1"
-             align="center"
-             color="text.secondary"
-             component="p"
-           >
-             Curative Gallery App to  showcase different work.
-           </Typography>
-           <Copyright />
-         </Box>
-         {/* End footer */}
+           
     
        </main>
 
@@ -177,107 +148,3 @@ const columns = [
   
 ]
 
-// export default function Users() {
-  
-//   const [users,setUsers]=React.useState([]);
-//   const [userid, setUserId] = React.useState([]);
-//   React.useEffect(()=>{
-//     fetchData();
-//   },[])
-//   const fetchData = async () =>{
-//     await fetch('https://jsonplaceholder.typicode.com/users')
-//     .then((res)=>res.json())
-//     .then((data)=>this.setState({users:data}))   
-//     .catch((err) => {
-//       console.log(err)
-//     })
-//   }
-//   console.log(users)  
-//   const columns = [
-//     { field: 'id', headerName: 'ID' },
-//     { field: 'name', headerName: 'Name', width: 300 },
-//     { field: 'username', headerName: 'UserName', width: 300 },
-//     { field: 'email', headerName: 'Email', width: 600 },
-//     { field: 'phone', headerName: 'Phone', width: 300 },
-//     { field: 'website', headerName: 'Website', width: 300 },
-//     {
-//       field: "View Albums",
-//       renderCell: (cellValues) => {
-//         return (
-//           <Button
-//             variant="contained"
-//             color="primary"
-//             onClick={this.selectUser.bind(
-//               this,
-//               user.id,
-//           )}
-//           >
-//             Albums
-//           </Button>
-//         );
-//       }
-//     },
-    
-//   ]
- 
-// const handleOnRowClick=(params)=>{  
-  
-//   setUserId(params.id);
-   
-// };  
-// console.log(userid);
-//   return (
-//     <main>
-//    <Box
-//           sx={{
-//             bgcolor: 'background.paper',
-//             pt: 8,
-//             pb: 6,  
-//           }}
-//         >
-//           <Container maxWidth="xl">
-//             <Typography
-//               component="h1"
-//               variant="h2"
-//               align="center"
-//               color="text.primary"
-//               gutterBottom
-//             >
-//              USERS INFORMATION
-//             </Typography>
-         
-//           </Container>
-//         </Box>
-//         <Container maxWidth="xl">
-//     <div style={{ height: 600, width: '100%' }}>
-//       <DataGrid
-//         rows={users}
-//         columns={columns}
-//         pageSize={10}
-//         rowsPerPageOptions={[5]}
-//         checkboxSelection
-//         onRowClick={handleOnRowClick  }  
-//       />
-
-// </div>
-// </Container>
-//         {/* Footer */}
-//         <Box sx={{ bgcolor: 'background.paper', p: 6 }} component="footer">
-//         <Typography variant="h6" align="center" gutterBottom>
-            
-//         </Typography>
-//         <Typography
-//           variant="subtitle1"
-//           align="center"
-//           color="text.secondary"
-//           component="p"
-//         >
-//           Curative Gallery App to  showcase different work.
-//         </Typography>
-//         <Copyright />
-//       </Box>
-//       {/* End footer */}
- 
-//     </main>
-//   );
-// }

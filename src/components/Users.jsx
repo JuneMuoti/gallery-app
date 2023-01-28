@@ -17,7 +17,7 @@ class Users extends Component {
   constructor() {
     super();
     this.state = { users: [], 
-      selectedUser: -1,
+      selectedUser: 0,
       loading:true
     };
     this.selectUser = this.selectUser.bind(this);
@@ -56,7 +56,7 @@ class Users extends Component {
            <Grid item xs={6}>
            <Typography
                  component="h1"
-                 variant="h3"
+                 variant="h4"
                  align="center"
                  color="text.primary"
                  gutterBottom

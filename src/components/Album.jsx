@@ -63,12 +63,12 @@ navigateToPage = index => {
           
           <Typography
             component="h1"
-            variant="h2"
+            variant="h4"
             align="center"
             color="text.primary"
             gutterBottom
           >
-            Albums for User {this.userId}
+           {this.state.albums.length } Albums for User {this.userId}
           </Typography>
         
         </Container>

@@ -23,10 +23,10 @@
  Photosphere  uses a number of Tech stacks  to work properly:
 
 - [ReactJS](https://www.reactjs.org/) -The best Javascript library for your project
-- [Reactrouterdom](https://www.reactrouter.org/) -For all your routing needs
+- [React-router-dom](https://www.reactrouter.org/) -For all your routing needs
 - [MaterialUI](https://www.materialui.com/) - great UI boilerplate for modern web apps
-- [node.js] - evented I/O for the backend
-- [jQuery] - duh
+- [node.js](https://www.nodejs.com/)- evented I/O for the backend
+- [jQuery](https://www.jQuery.com/)- duh
 
 And of course  Photosphere itself is open source with a [public repository](https://github.com/JuneMuoti/gallery-app.git)
  on GitHub.

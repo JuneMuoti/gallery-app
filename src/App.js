@@ -10,6 +10,7 @@ import Users from './components/Users';
 import Home from './components/Home';
 import Login from './components/Login';
 import Landing from './components/Landing';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Route path="Albums/new" render={(props) => <Album {...props}/>}/>
      
      </Routes>
+     <Footer/>
     </div>
   );
 }

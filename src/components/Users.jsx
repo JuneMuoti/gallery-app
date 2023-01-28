@@ -70,7 +70,8 @@ class Users extends Component {
            pageSize={10}
            rowsPerPageOptions={[5]}
            checkboxSelection
-             onRowClick={this.selectUser}
+          onRowClick={this.selectUser}
+          loading={this.state.users.length === 0}
          />
    
    </div>

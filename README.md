@@ -35,22 +35,22 @@ And of course  Photosphere itself is open source with a [public repository](http
 
 Photosphere requires [ReactJS](https://reactjs.org/) and [nodejs](https://nodejs.com/)  to run.
 
-In the project directory, you can run:
+In the project directory, you can run to install dependencies:
 
 ```sh
 
-npm start
+npm install
 ```
 
-Then Run
+Then Build the app for production  using 
 
-```sh
-npm test
-```
-
-Then Builds the app for production  using 
 ```sh
 npm run build
+```
+
+Then run the following to start the server
+```sh
+npm run start
 ```
 
 Verify the deployment by navigating to your server address in
